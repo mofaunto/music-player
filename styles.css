@@ -212,12 +212,26 @@ small {
 }
 
 @media screen and (max-width: 700px) {
+  .controls {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   .range-slider {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .controls {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   .range-slider {
     width: 100%;
   }
