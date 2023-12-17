@@ -234,10 +234,6 @@ small {
     align-items: center;
     margin: 0 auto;
   }
-  .btn {
-    width: 4em;
-    height: 4em;
-  }
   .range-slider {
     width: 100%;
     margin: 0 auto;
@@ -270,10 +266,6 @@ small {
     justify-content: center;
     align-items: center;
     margin: 1em auto;
-  }
-  .btn {
-    width: 4em;
-    height: 4em;
   }
   .range-slider {
     width: 100%;
@@ -308,10 +300,6 @@ small {
     justify-content: center;
     align-items: center;
     margin: 1em auto;
-  }
-  .btn {
-    width: 4em;
-    height: 4em;
   }
   .range-slider {
     width: 100%;
