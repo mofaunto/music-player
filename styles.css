@@ -218,6 +218,7 @@ small {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   .range-slider {
     width: 100%;
@@ -231,6 +232,7 @@ small {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   .range-slider {
     width: 100%;
