@@ -262,6 +262,7 @@ small {
   .cover {
     width: 10em;
     height: 10em;
+    overflow: hidden;
   }
   .controls {
     width: 100%;
