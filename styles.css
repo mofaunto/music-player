@@ -227,7 +227,7 @@ small {
   }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .player {
     padding: 0.5em;
   }
@@ -238,4 +238,4 @@ small {
   .range-slider {
     width: 80%;
   }
-}
+} */
