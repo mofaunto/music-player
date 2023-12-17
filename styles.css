@@ -235,6 +235,10 @@ small {
 }
 
 @media screen and (max-width: 400px) {
+  .player {
+    width: 100%;
+    height: 100vh;
+  }
   .cover {
     width: 12em;
     height: 12em;
@@ -260,6 +264,10 @@ small {
 }
 
 @media screen and (max-width: 320px) {
+  .player {
+    width: 100%;
+    height: 100vh;
+  }
   .cover {
     width: 10em;
     height: 10em;
