@@ -100,6 +100,8 @@ small {
   height: 1.7em;
   z-index: 3;
   position: relative;
+  background-color: transparent;
+  border: none;
 }
 
 .timeline-slider .slider-thumb {
