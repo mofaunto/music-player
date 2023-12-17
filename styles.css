@@ -243,6 +243,7 @@ small {
   .volume-slider {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 2em;
   }
   .btn,
   .btn-main {
