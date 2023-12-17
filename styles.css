@@ -213,7 +213,7 @@ small {
   margin: 1em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   html,
   body {
     overflow: hidden;
@@ -243,6 +243,15 @@ small {
   .volume-slider {
     width: 80%;
     margin: 0 auto;
+  }
+  .btn,
+  .btn-main {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .controls .btn {
+    margin: 0.5em;
   }
 }
 
@@ -278,6 +287,14 @@ small {
     width: 80%;
     margin: 0 auto;
   }
+  .btn-main {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .controls .btn {
+    margin: 0.5em;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -311,5 +328,13 @@ small {
   .volume-slider {
     width: 80%;
     margin: 0 auto;
+  }
+  .btn-main {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .controls .btn {
+    margin: 0.5em;
   }
 }
