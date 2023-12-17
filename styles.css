@@ -33,11 +33,10 @@ main {
 }
 
 .player {
-  width: 90%;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  padding: 2em;
+  padding: 4em;
   color: var(--text-color1);
   border: 1px solid var(--primary1);
   box-shadow: 0.2em 0.2em 1em 1em var(--shadow1);
@@ -45,10 +44,8 @@ main {
 }
 
 .cover {
-  max-width: 16em;
-  max-height: 16em;
-  width: 50%;
-  height: 50%;
+  width: 18em;
+  height: 18em;
   object-fit: cover;
   border: 0.5em var(--border) solid;
   border-radius: 50%;
@@ -214,28 +211,8 @@ small {
   margin: 1em;
 }
 
-/* @media screen and (max-width: 700px) {
-  .player {
-    padding: 1em;
-  }
-
-  .cover {
-    width: 70%;
-  }
+@media screen and (max-width: 700px) {
   .range-slider {
-    width: 80%;
+    width: 100%;
   }
-} */
-
-/* @media screen and (max-width: 480px) {
-  .player {
-    padding: 0.5em;
-  }
-
-  .cover {
-    width: 90%;
-  }
-  .range-slider {
-    width: 80%;
-  }
-} */
+}
