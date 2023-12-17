@@ -212,6 +212,10 @@ small {
 }
 
 @media screen and (max-width: 700px) {
+  .cover {
+    width: 15em;
+    height: 15em;
+  }
   .controls {
     width: 100%;
     display: flex;
@@ -222,19 +226,34 @@ small {
   }
   .range-slider {
     width: 100%;
+    margin: 0 auto;
+  }
+  .volume-slider {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .cover {
+    width: 12em;
+    height: 12em;
+  }
   .controls {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 1em auto;
   }
   .range-slider {
     width: 100%;
+    margin: 0 auto;
+  }
+
+  .volume-slider {
+    width: 80%;
+    margin: 0 auto;
   }
 }
