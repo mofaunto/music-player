@@ -216,3 +216,9 @@ small {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .range-slider {
+    width: 100%;
+  }
+}
